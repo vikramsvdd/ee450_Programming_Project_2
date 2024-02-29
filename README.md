@@ -34,6 +34,6 @@ M: prompts the user for a new query
 
 
 
-7. I presume my system will fail, if a particular message exceeds 15,000 characters. Also, I have designed the system to be case-sensitive wrt the handling of the department name (say if in the dataA.txt, there is a department ECE, but if the client inputs ece or eCE, it will fail to recognise that!). Also mainly, the main server gets the department list only once i.e after the startup of the backend servers and its own startup, thus to restart the system you must start the backend servers first and then the main server.
+7. My system can handle atmost 15,000 characters. Also, I have designed the system to be case-sensitive wrt the handling of the department name (say if in the dataA.txt, there is a department ECE, but if the client inputs ece or eCE, it will fail to recognise that!). Also mainly, the main server gets the department list only once i.e after the startup of the backend servers and its own startup, thus to restart the system you must start the backend servers first and then the main server.
 
-8. I used Beej's Network Programming using c++ and chatGPT to refine my code.
+8. References: Beej's Network Programming
