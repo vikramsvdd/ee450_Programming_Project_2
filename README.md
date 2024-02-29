@@ -4,7 +4,7 @@
 
 3. Platform: Ubuntu 20.04.6
 
-4. In this assignment, I have implemented a simple main server to backend server interaction, where upon an user's request, the main server requests for the student list associated with a department and the backend servers satisfy that request, else the main server prompts the user to enter a relevant department name
+4. In this project, I have implemented a simple main server to backend server interaction, where upon an user's request, the main server requests for the student list associated with a department and the backend servers satisfy that request, else the main server prompts the user to enter a relevant department name
 
 5.servermain.cpp : It is the code that drives the main server and implements the main server functionality.
 
